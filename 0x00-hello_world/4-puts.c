@@ -1,4 +1,13 @@
-#include<stdio.h>
+#include <stdio.h>
+
+/**
+ * main - Entry point
+ *
+ * Description : 'Programming is like building a multilingual puzzle'
+ *
+ * Return: 0
+ */
+
 int main(void)
 {
 	/* Coding */
