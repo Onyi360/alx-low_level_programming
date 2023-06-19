@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * C program to print the size of variables using sizeof() operator.
+ * main - Entry point "program to print using sizeof() operator".
+ * Return: Always 0
  */
 
 int main(void)
@@ -14,7 +15,7 @@ int main(void)
 
 	printf("\nSize of a: %d", sizeof(a));
 	printf("\nSize of b: %d", sizeof(b));
-	primtf("\nSize of c: %d", sizeof(c));
+	printf("\nSize of c: %d", sizeof(c));
 	printf("\nSize of d: %d", sizeof(d));
 	printf("\nSize of str: %d", sizeof(str));
 
