@@ -1,23 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - Entry point "program to print using sizeof() operator".
- * Return: Always 0
+ * main - Entry point
+ *
+ * Return: Always 0 (success)
  */
 
 int main(void)
 {
-	char	a	= 'A';
-	int	b	= 120;
-	float	c	= 123.0f;
-	double	d	= 1222.90;
-	char	str[]	= "Hello";
-
-	printf("\nSize of a: %d", sizeof(a));
-	printf("\nSize of b: %d", sizeof(b));
-	printf("\nSize of c: %d", sizeof(c));
-	printf("\nSize of d: %d", sizeof(d));
-	printf("\nSize of str: %d", sizeof(str));
+	printf("Size of a char: %d byte(s)\n", sizeof(char));
+	printf("Size of an int: %d byte(s)\n", sizeof(int));
+	printf("Size of a long int: %d byte(s)\n", sizeof(long int));
+	printf("Size of a long long int: %d byte(s)\n", sizeof(long long int));
+	printf("Size of a float: %d byte(s)\n", sizeof(float));
 
 	return (0);
 }
