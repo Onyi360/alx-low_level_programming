@@ -2,17 +2,17 @@
 
 /**
  * print_numbers - Prints numbers since 0 to 9
- * @x: The number to be printed
+ * @c: The number to be printed
  * Return: The numbers since 0 to 9
  */
 
 void print_numbers(void)
 {
-	int x;
+	int c;
 
-	for (x = '0'; x <= '9'; x++)
+	for (c = '0'; c <= '9'; c++)
 	{
-	_putchar(x);
+	_putchar(c);
 	}
 	_putchar('\n');
 }
