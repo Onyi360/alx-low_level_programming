@@ -2,7 +2,6 @@
 
 /**
  * print_numbers - Prints numbers since 0 to 9
- * @c: The number to be printed
  * Return: The numbers since 0 to 9
  */
 
