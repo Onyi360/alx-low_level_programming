@@ -3,7 +3,7 @@
 /**
  * _atoi - convert a string to an integer
  * @s: The pointer to convert
- * return: The int converted from the string
+ * Return: Always 0 (success).
  */
 
 int _atoi(char *s)
